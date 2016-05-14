@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout_register"
+    android:background="@drawable/image5"
+    android:gravity="center_vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="0,3"
+    tools:context=".RegisterPage">
+
+    <TableRow android:id="@+id/tableRow_register_user"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_vertical">
+        <TextView />
+        <TextView android:id="@+id/textView_register_user"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/user"
+            style="@style/TextView"/>
+        <EditText android:id="@+id/editText_register_user"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            style="@style/EditText"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow_register_password"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView />
+        <TextView android:id="@+id/textView_register_password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/password"
+            style="@style/TextView"/>
+        <EditText android:id="@+id/editText_register_password"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:inputType="textPassword"
+            style="@style/EditText"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow_register_password_again"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView />
+        <TextView android:id="@+id/textView_register_password_again"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/password_again"
+            style="@style/TextView"/>
+        <EditText android:id="@+id/editText_register_password_again"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:inputType="textPassword"
+            style="@style/EditText"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow_register_otherAccount"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView />
+        <TextView android:id="@+id/textView_register_otherAccount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/otherAccount"
+            style="@style/TextView"/>
+        <EditText android:id="@+id/editText_register_otherAccount"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:hint="邮箱/手机"
+            style="@style/EditText"/>
+        <TextView />
+    </TableRow>
+
+    <TableRow android:id="@+id/tableRow_register_button"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+        <TextView />
+        <Button android:id="@+id/button_register1"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/register"
+            style="@style/TextView"/>
+        <Button android:id="@+id/button_cancel"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/cancel"
+            style="@style/EditText"/>
+        <TextView />
+    </TableRow>
+
+</TableLayout>
